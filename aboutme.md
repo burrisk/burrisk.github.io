@@ -1,16 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Kyle Burris and I am a third year PhD student in the department of Statistical Science at Duke University, currently advised by Dr. Jerry Reiter.  I'm an avid sports fan who is passionate about statistics education, data science, and Bayesian statistics.    
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+This site serves as my personal webpage where I will periodically update readers on cool problems that I am working on and link to the webpages of courses and I am teaching/have taught.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+If you are interested in knowing more about me or have comments about what you see here, feel free to [send me an email!](mailto:kyle.burris@duke.edu) 
