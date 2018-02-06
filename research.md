@@ -3,20 +3,26 @@ layout: page
 title: Research
 ---
 
-I have broad research interests in statistics and data analysis.  Below are some research projects that I am currently working on.
+I have broad research interests in statistics and data analysis, particularly in baseball applications.  Below are some research projects that I am currently working on.
 
-### Exact Adaptive Confidence Intervals for Areal Spatial Data
-When analyzing spatial data, a key feature is that measurements at one location are often more similar to measurements taken at a nearby location than those from a location farther away.  Constructing confidence intervals using data only in a particular area can be inefficient, since doing so fails to take the information from nearby areas into account. However, credible intervals derived from Bayesian hierarchical spatial models based on prior information do not get guaranteed coverage for each location.  In my work, I'm developing methodology for constructing confidence intervals for the areal means of continuous random variables, potentially extending the approach to count data.
+## Statistical Methodology
 
-### Sensorimotor Assessments of Professional Baseball Players
-One project that I am working on involves identifying the relationship between sensorimotor ability (as measured by a proprietary Nike assessment battery) and on-field performance in professional baseball.  This presents some unique modeling challenges, since player comparison is tricky between multiple professional baseball leagues
+#### Adaptive procedures for multiple testing and post-selection inference
+Science is currently facing a replication crisis, in which many scientific findings cannot be replicated in follow-up studies.  I think that much of this problem is due to the improper use of statistical methods in determining statistical significance, since models are often selected after analyzing the data.  Multiple testing procedures and post-selection inference provide a way forward for researchers who want to prevent false positives, while still letting the model be determined by the data.
 
-### Bayesian Exploitative Strategies in Imperfect Information Games
-After repeated interactions with an adversary, an agent (Hero) can often infer the strategy of an opponent (Villain) based on observing prior action.  If Villain does not play an equilibrium strategy, Hero can sometimes deviate from the equilibrium to play a nemesis strategy that improves payoffs.  Through adversarial modeling and Bayesian inference, I'm developing an approach for Hero to exploit Villain's tendencies, incorporating uncertainty both the model and Villain's hidden information.
+#### Exact adaptive confidence intervals for small area inference
+In sample surveys, researchers are often interested in estimating an area mean or total.  However, traditional confidence interval methods can be too imprecise when the sample size is large.  I'm working on developing a framework to adaptively construct confidence intervals with constant coverage, borrowing information across areas and/or time periods.
 
-### Edit-Imputation of Continuous Microdata
-Large, cross-sectional business surveys are often riddled with missing and/or erroneous values. I've worked on extending methodology to simultaneously flag erroneous values and impute them, when the imputed values are necessarily constrained to a polytope.
+## Baseball
+#### Sensorimotor assessments of professional baseball players
+One project that I am working on involves identifying the relationship between sensorimotor ability (as measured by a proprietary Nike assessment battery) and on-field performance in professional baseball, in collaboration with researchers in the department of Psychiatry at Duke.  You can find the paper, published in Nature Scientific Reports [here](https://www.nature.com/articles/s41598-017-18565-7).  The study has been featured outlets such as [FanGraphs](https://www.fangraphs.com/blogs/neuroscience-can-project-batting-lines-now/) and [US News](https://health.usnews.com/health-care/articles/2018-01-17/for-baseball-scouts-another-tool-for-spotting-talent).  I will be presenting this work at the [2018 MIT Sloan Sports Analytics Conference](http://www.sloansportsconference.com/).
 
-### Baseball Hackathons
-I love the game of baseball and how it lends itself to insightful data collection and analysis.  This past year, I won the 2017 TruMedia Hackathon, which was judged by 13 baseball executives.  My winning submission can be found [here](https://github.com/burrisk/TruMedia2017/blob/master/Write-Ups/Hackathon_Burris.pdf)
+#### Quantifying fatigue in MLB relievers
+As relief pitcher usage has become a hot topic in recent years, making optimal bullpen decision has become increasingly important. I [develop a framework](files/relief_fatigue) borrowed from toxicology to predict velocity loss as a result of a pitcher's recent appearances.
+
+
+#### A context-dependent metric for batter plate discipline
+Although a lot of factors go into a batter's decision of whether to swing, the best publicly available metrics for plate discipline only use a binary indicator for whether the pitch was inside the strike zone to judge a batter's plate discipline.  I believe that we can do much better by looking at the context of the pitch to determine the relative advantage of swinging.
+
+
 
