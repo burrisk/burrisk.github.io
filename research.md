@@ -18,7 +18,7 @@ In sample surveys, researchers are often interested in estimating an area mean o
 One project that I am working on involves identifying the relationship between sensorimotor ability (as measured by a proprietary Nike assessment battery) and on-field performance in professional baseball, in collaboration with researchers in the department of Psychiatry at Duke.  You can find the paper, published in Nature Scientific Reports [here](https://www.nature.com/articles/s41598-017-18565-7).  The study has been featured outlets such as [FanGraphs](https://www.fangraphs.com/blogs/neuroscience-can-project-batting-lines-now/) and [US News](https://health.usnews.com/health-care/articles/2018-01-17/for-baseball-scouts-another-tool-for-spotting-talent).  I will be presenting this work at the [2018 MIT Sloan Sports Analytics Conference](http://www.sloansportsconference.com/).
 
 #### Quantifying fatigue in MLB relievers
-As relief pitcher usage has become a hot topic in recent years, making optimal bullpen decision has become increasingly important. I [develop a framework](files/relief_fatigue) borrowed from toxicology to predict velocity loss as a result of a pitcher's recent appearances.
+As relief pitcher usage has become a hot topic in recent years, making optimal bullpen decision has become increasingly important. I [develop a framework](files/relief_fatigue.pdf) borrowed from toxicology to predict velocity loss as a result of a pitcher's recent appearances.
 
 
 #### A context-dependent metric for batter plate discipline
